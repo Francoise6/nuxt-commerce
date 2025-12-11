@@ -3,50 +3,41 @@
     <div
       class="md:flex md:flex-row-reverse md:justify-center mx-auto md:min-h-[600px]"
     >
-      <div class="flex flex-col md:items-stretch md:overflow-hidden">
-        <NuxtImg
-          src="/hero.png"
-          alt="Nuxt Commerce Hero"
+      <div class="flex flex-col md:items-stretch md:overflow-hidden w-full bg-gray-200                  p-2                       border border-gray-300    rounded-xl                shadow-lg">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
           height="600"
-          fetch-priority="high"
-          preload
-          width="800"
-          class="h-full object-cover object-left"
-        />
+          width="800"          
+          class="h-full object-cover object-center"
+        >
+          <source src="/hero-video.webm" type="video/webm">
+          <source src="/hero-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video> 
       </div>
       <div
         class="md:flex md:flex-col md:justify-center md:items-start md:basis-2/4 text-left"
       >
-        <h1 class="text-6xl md:leading-[67.5px] font-bold mt-2 mb-4 text-white">
-          Nuxt <span class="text-primary-400">Commerce</span>
+        <h1 class="text-5xl md:leading-[67.5px] font-bold mt-2 mb-4 text-cyan-500">
+          Colorful, Stylish, <span class="text-purple-500"> Unique You</span>
         </h1>
-        <p class="text-white">
-          E-Commerce template built with
-          <a
-            href="https://nuxt.com/"
-            target="_blank"
-            class="hover:underline hover:text-primary-400"
-            aria-label="Link to Nuxt Home Page"
-          >Nuxt</a>
-          &
-          <a
-            href="https://www.shopify.com/"
-            target="_blank"
-            class="hover:underline hover:text-primary-400"
-            aria-label="Link to Shopify Home Page"
-          >Shopify</a>
+        <p class="text-slate-500">
+          Find the perfect partner to your unique style        
         </p>
         <div class="flex flex-row gap-4 mt-6">
           <UButton
-            color="primary"
+            color="warning"
             size="xl"
             to="/collection/latest-stuff"
           >
-            See products
+            All products
           </UButton>
 
           <UButton
-            color="primary"
+            color="warning"
             variant="outline"
             size="xl"
             to="/about"

@@ -19,7 +19,7 @@ function isSelected(name: string, value: string) {
     :key="option.id"
     class="my-6"
   >
-    <p class="mb-2 text-slate-400">
+    <p class="mb-2 text-slate-500">
       {{ option.name }}
     </p>
     <div

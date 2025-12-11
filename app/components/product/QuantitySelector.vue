@@ -33,7 +33,7 @@ watch(count, (newVal: number) => {
 
 <template>
   <div class="inline-flex flex-col items-center">
-    <div class="flex border border-gray-700 rounded-md bg-gray-800 h-10">
+    <div class="flex border border-gray-700 rounded-md bg-gray-200 h-10">
       <UButton
         type="button"
         :disabled="count <= min || disabled"

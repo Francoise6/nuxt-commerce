@@ -12,7 +12,7 @@ useHead({
 
 <template>
   <UApp>
-    <Body class="bg-[#020420]" />
+    <Body class="bg-[#81D8D0]" />
     <main id="main">
       <LayoutNavbarTop class="mb-5" />
 

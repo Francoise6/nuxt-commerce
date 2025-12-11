@@ -66,7 +66,7 @@ function handleMouseOver(event: MouseEvent) {
       </div>
       <div class="p-1 text-white">
         <div class="flex justify-between items-center">
-          <p class="truncate text-slate-300">
+          <p class="truncate text-slate-400">
             {{ product?.title }}
           </p>
         </div>

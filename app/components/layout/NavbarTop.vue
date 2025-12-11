@@ -9,18 +9,18 @@ function closeCategoryMenu() {
 
 const links = [
   {
-    label: 'Latest Stuff',
-    to: '/collection/latest-stuff',
+    label: 'Hair Color',
+    to: '/collection/hair-color',
     onSelect: closeCategoryMenu,
   },
   {
-    label: 'Casual Things',
-    to: '/collection/casual-things',
+    label: 'Styling Products',
+    to: '/collection/styling-products',
     onSelect: closeCategoryMenu,
   },
   {
-    label: 'Summer Clothes',
-    to: '/collection/summer-collection',
+    label: 'Hair Accessories',
+    to: '/collection/hair-accessories',
     onSelect: closeCategoryMenu,
   },
 ]
@@ -49,7 +49,7 @@ const links = [
         >
           <picture>
             <source
-              srcset="/logo-nuxt-commerce.svg"
+              srcset="/picsvg_download.svg"
               media="(min-width: 768px)"
             >
             <NuxtImg

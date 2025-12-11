@@ -12,7 +12,8 @@ const categories = [
     subcategories: [
       {
         subcategoryLabel: 'About us',
-        link: '/about',
+        //link: '/about',
+        link: '/',
       },
       {
         subcategoryLabel: 'Order pickup',
@@ -104,19 +105,19 @@ const socialIcons = [
   {
     id: 0,
     name: 'Nuxt Twitter Icon',
-    path: '/icons/twitter.png',
+    path: '/icons/tiktok.png',
     link: 'https://twitter.com/nuxt_js',
   },
   {
     id: 1,
     name: 'Nuxt Discord Icon',
-    path: '/icons/discord.png',
+    path: '/icons/youtube.png',
     link: 'https://discord.com/invite/ps2h6QT',
   },
   {
     id: 2,
     name: 'Nuxt GitHub Icon',
-    path: '/icons/github.png',
+    path: '/icons/ins.png',
     link: 'https://github.com/Baroshem/commerce',
   },
 ]
@@ -162,7 +163,7 @@ const socialIcons = [
           <UButton
             type="submit"
             class="ml-2"
-            color="neutral"
+            color="warning"
           >
             Subscribe
           </UButton>
@@ -196,7 +197,7 @@ const socialIcons = [
           <p
             class="flex items-center justify-center leading-5 text-center text-white/50 font-body text-sm"
           >
-            Copyright © 2025-present Nuxt - MIT License
+            Copyright © 2025 Four Season Style
           </p>
         </div>
 

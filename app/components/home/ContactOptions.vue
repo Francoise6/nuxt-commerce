@@ -26,11 +26,11 @@ const contactOptions = [
       class="mx-auto my-4 text-center text-slate-300"
     >
       <div
-        class="border border-gray-700 rounded-md w-8 h-8 p-1 text-center my-0 m-auto flex items-center justify-center bg-gray-900"
+        class="border border-gray-300 rounded-md w-8 h-8 p-1 text-center my-0 m-auto flex items-center justify-center bg-gray-300"
       >
         <UIcon
           :name="icon"
-          class="text-gray-400"
+          class="text-gray-500"
         />
       </div>
 

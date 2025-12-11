@@ -36,8 +36,8 @@ const { data: casualThingsCollection } = await useAsyncData('casual-things-colle
     <NuxtLazyHydrate when-visible>
       <section class="justify-center">
         <HomeProductCarousel
-          title="New Collection"
-          description="Newest collection products"
+          title="Trending Style"
+          description="Recent popular styles"
           link="/collection/latest-stuff"
           :products="latestStuffCollection?.collection?.products"
         />

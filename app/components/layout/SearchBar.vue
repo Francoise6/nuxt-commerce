@@ -70,13 +70,13 @@ const isFetched = computed(() => fetchStatus.value === 'success' || fetchStatus.
     >
       <div
         v-if="!result?.edges?.length"
-        class="py-2 bg-gray-700 text-gray-300 border border-solid rounded-md border-gray-700 drop-shadow-md text-center"
+        class="py-2 bg-gray-50 text-green-700 border border-solid rounded-md border-gray-700 drop-shadow-md text-center"
       >
         No results found
       </div>
       <ul
         v-else
-        class="py-2 bg-gray-700 text-gray-300 border border-solid rounded-md border-gray-700 drop-shadow-md relative xs:-left-40 overflow-auto max-h-[400px]"
+        class="py-2 bg-gray-50 text-green-700 border border-solid rounded-md border-gray-700 drop-shadow-md relative xs:-left-40 overflow-auto max-h-[400px]"
       >
         <li
           v-for="{ node } in result?.edges"
